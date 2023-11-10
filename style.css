@@ -1,0 +1,64 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        background: rgb(29, 28, 28);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .cabecalho img {
+        width: 50px;
+        height: auto;
+    }
+    
+    body {
+        height: 100vh;
+        background-color: #000000;
+        color: white;
+    }
+    
+    .titulo {
+        font-size: 60px;
+        /* Adicione o tamanho de fonte desejado */
+    }
+    
+    .corSubtitulo {
+        font-size: 20px;
+        color: red;
+    }
+    
+    .corTitulo {
+        color: red;
+        /* Cor azul desejada */
+    }
+    
+    .apresentacao {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .apresentacao__conteudo {
+        width: 80%;
+        background-color: rgb(0, 0, 0);
+        padding: 25px;
+        display: flex;
+    }
+    
+    .logo {
+        background-color: red;
+    }
+    
+    .textContent {
+        background-color: aqua;
+        display: flex;
+    }
