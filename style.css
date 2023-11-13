@@ -1,64 +1,134 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .cabecalho {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 80%;
-        background: rgb(29, 28, 28);
-        align-items: center;
-        padding: 25px;
-    }
-    
-    .cabecalho img {
-        width: 50px;
-        height: auto;
-    }
-    
-    body {
-        height: 100vh;
-        background-color: #000000;
-        color: white;
-    }
-    
-    .titulo {
-        font-size: 60px;
-        /* Adicione o tamanho de fonte desejado */
-    }
-    
-    .corSubtitulo {
-        font-size: 20px;
-        color: red;
-    }
-    
-    .corTitulo {
-        color: red;
-        /* Cor azul desejada */
-    }
-    
-    .apresentacao {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .apresentacao__conteudo {
-        width: 80%;
-        background-color: rgb(0, 0, 0);
-        padding: 25px;
-        display: flex;
-    }
-    
-    .logo {
-        background-color: red;
-    }
-    
-    .textContent {
-        background-color: aqua;
-        display: flex;
-    }
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    /* Personalização do cabeçalho*/
+                    
+                    .cabecalho {
+                        display: flex;
+                        justify-content: center;
+                        width: 80%;
+                        background: #000000;
+                        align-items: center;
+                        padding: 35px;
+                    }
+                    /*Personalização de tamanho da imagem do cabecalho */
+                    
+                    .cabecalho img {
+                        width: 40px;
+                        height: 40%;
+                    }
+                    
+                    body {
+                        height: 100vh;
+                        background-color: #000000;
+                        color: white;
+                    }
+                    /*Personalização de tamanho da fonte do titulo*/
+                    
+                    .cards {
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .cards .titulo {
+                        font-size: 80px;
+                    }
+                    /*Personalização da cor do titulo*/
+                    
+                    .corTitulo {
+                        color: red;
+                    }
+                    /*Personalização da cor do sub-titulo*/
+                    
+                    .corSubtitulo {
+                        justify-content: center;
+                        font-size: 27px;
+                        color: rgb(255, 0, 0);
+                    }
+                    /* Organização do pagráfo: 'listagem das principais conquistas*/
+                    
+                    .corParagrafo {
+                        justify-content: center;
+                        font-size: 25px;
+                        color: rgb(255, 0, 0);
+                        display: flex;
+                        justify-content: center;
+                    }
+                    /*Organização de toda a apresentação */
+                    
+                    .apresentacao {
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    /*Organização de todo o conteudo da imagem*/
+                    
+                    .apresentacao__conteudo {
+                        width: 80%;
+                        background-color: rgb(0, 0, 0);
+                        padding: 25px;
+                        display: flex;
+                    }
+                    
+                    .logo {
+                        background-color: red;
+                    }
+                    
+                    .textContent {
+                        background-color: rgb(0, 0, 0);
+                        display: center;
+                    }
+                    /*Configuração do botão link, para clicar no linkdin ou git */
+                    
+                    .botao-link {
+                        background-color: #000;
+                        color: white;
+                        padding: 10px 15px;
+                        border: none;
+                        cursor: pointer;
+                        margin: 2px;
+                    }
+                    
+                    .informacao {
+                        justify-content: center;
+                        font-size: 17px;
+                        color: white;
+                    }
+                    
+                    .informacao a {
+                        justify-content: center;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    .background-color {
+                        background-color: red;
+                        display: flex;
+                        width: 95%;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                    }
+                    /*Personalização de quando o usuário passa o mouse por cima dos links(linkdin e git)*/
+                    
+                    .botao-link:hover {
+                        background-color: #f90505;
+                    }
+                    
+                    element.style {
+                        background-color: rgb(0, 0, 0);
+                        display: flex;
+                        width: 95%;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                    }
+                    
+                    .cards-noticias {
+                        background-color: rgb(0, 0, 0);
+                        display: flex;
+                        width: 95%;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                    }
